@@ -38,7 +38,6 @@ p,h1,h2,h3{
 .container {
     height: 1274px;
   background-color: #7b7b7b29;
-  width: 100vw;
 }
 .add{
     width: 215px;
@@ -282,12 +281,3 @@ border: 1px solid #EDEDED;
   margin-left:10.33px ;
 }
 
-@media(max-width:500px) {
-  *{
-    margin: 0px;
-    padding: 0px;
-  }
-  .add-text{
-    display: none;
-  }
-}
