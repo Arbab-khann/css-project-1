@@ -95,7 +95,7 @@ p,h1,h2,h3{
   border:1px solid#EDEDED;
 }
 .task-card:hover{
-  box-shadow: 0px 0px 20px #67676729;
+  box-shadow: 0px 0px 20px 20px  #817d7d29;
 transition-delay: 0.3s;
 }
 .task-card p{
@@ -126,6 +126,7 @@ text-decoration: line-through;
 color: #C2C2C2;
 }
 input[type=checkbox]{
+    accent-color:#756e6e ;
     height: 30px;
     width: 30px;
 }
@@ -198,8 +199,9 @@ display: flex;
 }
 /* ---------------------index 4--------------------- */
 .blur{
-opacity: 0.6;
+  filter: blur(4px);
 z-index: -1;
+color: #aaa8a8;
 }
 .indexTwoFourBox{
   background-color: #FFFFFF;
